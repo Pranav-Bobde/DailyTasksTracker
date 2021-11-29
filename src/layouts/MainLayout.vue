@@ -53,11 +53,13 @@ const linksData = [
     title: 'Todo',
     caption: 'Daily Tasks',
     icon: 'o_assignment_turned_in',
+    to: '/todo'
   },
   {
     title: 'Tracker',
     caption: 'Days Left',
-    icon: 'o_today'
+    icon: 'o_today',
+    to: '/tracker'
   }
 ];
 
