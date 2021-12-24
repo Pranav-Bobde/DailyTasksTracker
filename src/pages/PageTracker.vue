@@ -1,15 +1,15 @@
 <template>
   <q-page>
-    <TodoTask />
+    <TrackerItem />
   </q-page>
 </template>
 
 <script>
-import TodoTask from 'components/TodoTask.vue'
+import TrackerItem from 'components/TrackerItem.vue'
 export default {
   name: 'PageTodo',
   components:{
-    TodoTask
+    TrackerItem
   }
 }
 </script>
